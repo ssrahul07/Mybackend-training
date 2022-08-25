@@ -14,12 +14,13 @@ mongoose.connect("mongodb+srv://rahul:3Z2p1WkThMQaqCav@cluster0.kapeubs.mongodb.
 .then( () => console.log("MongoDb is connected"))
 .catch ( err => console.log(err) )
 
-app.use (
-    function (req, res, next) {
-        console.log ("inside GLOBAL MW");
-        next();
-  }
-  );
+// app.use (
+//     function (req, res, next) {
+//         console.log ("inside GLOBAL MW");
+//         next();
+//   }
+//   );
+  
 
 app.use('/', route);
 
