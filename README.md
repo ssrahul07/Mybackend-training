@@ -2,7 +2,7 @@
 - Pending : not awaited and hence has not completed yet ( e.g. typically when you dont await an axios or db call)
 - Rejected: When promise failed ( wrong url | server down etc)
 - Fulfilled: Promise completed succesfully (e.g. db call has completed and returned a result succesfully)
-// - settled : referes to a combination of either rejhected or fulfilled
+// - settled : referes to a combination of either rejhected or fulfil+led
 
 
 # What is a promise:
